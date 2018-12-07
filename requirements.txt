@@ -3,7 +3,6 @@ pypandoc
 -e .
 pandas
 numpy
-sklearn
 matplotlib
 
 
@@ -11,6 +10,4 @@ matplotlib
 click
 Sphinx
 coverage
-awscli
 flake8
-python-dotenv>=0.5.1
