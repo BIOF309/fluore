@@ -23,6 +23,8 @@ data1 = p.read_csv("data2.csv", usecols=[3]) # I want the 3rd col
 x = data
 y = data1
 
+regression_coeff = n.polyfit(x,y,1)
+
 # Next step: 
 Fitting and replication
 
