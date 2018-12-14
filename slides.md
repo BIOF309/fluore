@@ -15,6 +15,14 @@ Analyzed data
 # Scatter plot code
 ![AddAve](scatter.png)
 
+also numpy.polyfit
+import pandas as p
+import numpy as n
+data = p.read_csv("data1.csv", usecols=[1]) # I want the first col
+data1 = p.read_csv("data2.csv", usecols=[3]) # I want the 3rd col
+x = data
+y = data1
+
 # Next step: 
 Fitting and replication
 
